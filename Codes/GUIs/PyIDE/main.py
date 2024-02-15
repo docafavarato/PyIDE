@@ -50,16 +50,14 @@ class Ui(QtWidgets.QMainWindow):
         for button in buttons:
             button.setStyleSheet(
                                 "QPushButton" "{"
+                                    "border-radius: 6px;"
                                     "color: white;"
-                                    "transition-duration: 0.4s;"
                                     "border: none;"
                                 "}"
                                 "QPushButton::hover" "{"
                                     "background-color: rgb(40, 46, 52);"
                                 "}"
                                 )
-
-
 
 app = QtWidgets.QApplication(sys.argv)
 window = Ui()
